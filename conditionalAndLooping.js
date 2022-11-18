@@ -281,3 +281,24 @@ function fizzBuzz(startingNumber, endNumber) {
 }
 
 console.log(fizzBuzz(1, 15));
+console.log('\n');
+
+  //  Nested Loop
+  // Expected Output
+// putaran 1 pushup 1
+// putaran 1 pushup 2
+// putaran 1 pushup 3
+// putaran 1 pushup 4
+// putaran 2 pushup 1
+// putaran 2 pushup 2
+// putaran 2 pushup 3
+// putaran 2 pushup 4
+
+let putaran = 2;
+let pushUp = 4
+
+for (let i = 1; i <= putaran; i++) {
+  for (let j = 1; j <= pushUp; j++) {
+    console.log('Putaran i ke ', i , ' Pushup j ke ', j);
+  }
+}
